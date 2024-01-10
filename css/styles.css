@@ -26,7 +26,17 @@ a {
     border-radius: 100%;
     border: 20px solid #FFFFFF;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.04);
-    margin-left: 142px;
+}
+.section1 {
+    width: 55%;
+}
+
+.section2 {
+    width: 45%;
+}
+
+.all {
+    margin-top: 10%;
 }
 
 .input {
