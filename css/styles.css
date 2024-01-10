@@ -81,6 +81,10 @@ a {
     margin-bottom: 24px;
 }
 
+.btn-primary:hover{
+    background-color: #a51f28;
+}
+
 .forgot-pswd-link {
     margin-left: 159px;
     color: #ADADAD;
