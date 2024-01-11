@@ -1,3 +1,14 @@
+th {
+    padding: 1rem;
+    color: #ADADAD;
+    font-weight: 400;
+}
+td {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: 0.80rem;
+}
+
+
 .no-border {
     border: none;
 }
@@ -49,4 +60,25 @@
 }
 .ind {
     background-color: #EBC844;
+}
+.paid {
+    background-color: #EBFFEF;
+    color: #3CDD5F;
+    width: fit-content;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+}
+.failed {
+    background-color: #FFF5F5;
+    color: #FF4545;
+    width: fit-content;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+}
+.pending {
+    background-color: #F8F8F8;
+    color: #BABABA;
+    width: fit-content;
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
 }
