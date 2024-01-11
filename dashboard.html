@@ -4,8 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/dashboard.css">
 </head>
 <body>
-    
+    <div class="navbar-spacing"">
+        <nav class="navbar d-flex justify-content-between">
+            <div class="d-flex justify-content-center align-items-center">
+                <button class="navbar-toggler no-border" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><img src="images/menu-bar.svg" alt=""></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images\logo.svg" alt="" height="30px"></a>
+                <div>
+                    <form class="container-fluid">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="input-group">
+                                <span class="input-group-text no-border"><img src="images/search-icon.svg" alt="" height="16px"></span>
+                                <input class="form-control me-2 no-border" type="search" placeholder="Search" aria-label="Search">
+                              </div>
+                            <div class="me-6"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="d-flex align-items-center justify-content-right">
+                <img src="images/profile.png" alt="" class="pad-left">
+                <span class="nav-item dropdown pad-left">
+                    <button class="btn btn-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      John Doe
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        
+                        <a class="dropdown-item" href="#">Sign out</a>
+                    </div>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><button class="dropdown-item" type="button">Action</button></li>
+                        <li><button class="dropdown-item" type="button">Another action</button></li>
+                        <div class="dropdown-divider"></div>
+                        <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                </span>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid w-100">
+        <div class="row">
+            <div class="col-2">
+                <div class="pos-f-t">
+                    <div class="collapse show col-2" id="navbarToggleExternalContent">
+                        <div>
+                            <nav class="nav flex-column">
+                                <div class="btn d-flex align-items-left justify-content-left side-menu-active">
+                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 active-tab tab">
+                                        <img src="images/dashboard-active.svg" alt="" class="sidebar-icon" height="20px">Dashboard
+                                    </button>
+                                </div>
+                                <div class="btn d-flex align-items-left justify-content-left ">
+                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 tab">
+                                        <img src="images/graph-default.svg" alt="" class="sidebar-icon" height="20px">Analysis
+                                    </button>
+                                </div>
+                                <div class="btn d-flex align-items-left justify-content-left ">
+                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 tab">
+                                        <img src="images/inbox-default.svg" alt="" class="sidebar-icon" height="20px">Inbox
+                                    </button>
+                                </div>
+                                <div class="btn d-flex align-items-left justify-content-left ">
+                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 tab">
+                                        <img src="images/clock-default.svg" alt="" class="sidebar-icon" height="20px">History
+                                    </button>
+                                </div>
+                                <div class="btn d-flex align-items-left justify-content-left ">
+                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 tab">
+                                        <img src="images/user-default.svg" alt="" class="sidebar-icon" height="20px">Users
+                                    </button>
+                                </div>
+                                <div class="btn d-flex align-items-left justify-content-left ">
+                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 tab">
+                                        <img src="images/maintenance-default.svg" alt="" class="sidebar-icon" height="20px">Maintenance
+                                    </button>
+                                </div>
+                                <div class="btn d-flex align-items-left justify-content-left ">
+                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 tab">
+                                        <img src="images/setting-default.svg" alt="" class="sidebar-icon" height="20px">Settings
+                                    </button>
+                                </div>
+                            </nav>              
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col 10">
+                <h2 class="navbar-spacing">Dashboard</h2>
+                <div class="spacing row">
+                    <div class="col-2">
+                        <div class="card bg-set d-flex align-items-center justify-content-center flex-row no-border">
+                            <div>
+                                <img src="images/star.svg" alt="" height="35px">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">23,456</h5>
+                                <p class="card-text">New Products</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card bg-set d-flex align-items-center justify-content-center flex-row no-border">
+                            <div>
+                                <img src="images/new-product.svg" alt="" height="35px">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">2345</h5>
+                                <p class="card-text">Added Products</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card bg-set d-flex align-items-center justify-content-center flex-row no-border">
+                            <div>
+                                <img src="images/total-product.svg" alt="" height="35px">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">32,456</h5>
+                                <p class="card-text">Total Products</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card bg-set d-flex align-items-center justify-content-center flex-row no-border">
+                            <div>
+                                <img src="images/dollar-filled.svg" alt="" height="35px">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">5678</h5>
+                                <p class="card-text">Today's sales</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="card bg-set d-flex align-items-center justify-content-center flex-row no-border">
+                            <div>
+                                <img src="images/money-bag.svg" alt="" height="35px">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">3,35,342</h5>
+                                <p class="card-text">Total sales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-7">
+                            <h4 class="navbar-spacing">Sales</h4>
+                            <img src="images/data-graph.png" alt="">
+                        </div>
+                        <div class="col-5">
+                            <h4 class="">Sales by country</h4>
+                            <div class="d-flex align-items-center justify-content-center navbar-spacing"><img src="images/pie-chart.svg" alt=""></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
