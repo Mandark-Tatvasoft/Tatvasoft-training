@@ -2,11 +2,11 @@
     border: none;
 }
 
-.color-set {
-    background-color: aqua;
+.countries {
     height: 18px;
     width: 18px;
     margin: 15px;
+    border-radius: 100%;
 }
 
 .pad-left {
@@ -37,4 +37,16 @@
 }
 .navbar-spacing {
     margin-bottom: 2rem;
+}
+.usa {
+    background-color: #C8242F;
+}
+.cnd {
+    background-color: #A2B86C;
+}
+.rsa {
+    background-color: #F16C20;
+}
+.ind {
+    background-color: #EBC844;
 }
