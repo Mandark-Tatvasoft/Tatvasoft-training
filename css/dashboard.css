@@ -26,14 +26,18 @@ td {
 }
 
 .side-menu-active {
-    background-color: #FFF3F4;
+    background-color: #ffc0c5;
     border: 2px;
+    border-radius: 5px;
 }
 
 .sidebar-icon {
     margin: 15px;
 }
 .active-tab{
+    color: #C8242F;
+}
+.active-tab:hover {
     color: #C8242F;
 }
 .tab{
@@ -85,7 +89,8 @@ td {
 .stacked {
     z-index: 10;
     position: fixed;
-    background-color:#ADADAD;
+    background-color: #ffd8d8;
+    
 }
 .sidebar-support {
     height: 100%;
