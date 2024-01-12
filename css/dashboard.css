@@ -41,7 +41,7 @@ td {
     
 }
 .bg-set {
-    background-color: #ffffff
+    background-color: #ffd7d7;
 }
 .spacing {
     margin-bottom: 9rem;
@@ -81,4 +81,14 @@ td {
     width: fit-content;
     padding: 0.1rem 0.3rem;
     border-radius: 0.25rem;
+}
+.stacked {
+    z-index: 10;
+    position: fixed;
+    background-color:#ADADAD;
+}
+.sidebar-support {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
 }
