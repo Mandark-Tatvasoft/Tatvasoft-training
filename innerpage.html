@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/innerpage.css">
 </head>
 <body>
     <div class="navbar-spacing"">
@@ -50,14 +51,14 @@
                     <div class="collapse col-2" id="navbarToggleExternalContent">
                         <div>
                             <nav class="nav flex-column">
-                                <div class="d-flex align-items-left justify-content-left side-menu-active">
-                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 active-tab tab">
-                                        <img src="images/dashboard-active.svg" alt="" class="sidebar-icon" height="20px">Dashboard
+                                <div class="d-flex align-items-left justify-content-left">
+                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 tab">
+                                        <img src="images/dashboard-default.svg" alt="" class="sidebar-icon" height="20px">Dashboard
                                     </button>
                                 </div>
-                                <div class="d-flex align-items-left justify-content-left ">
-                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 tab">
-                                        <img src="images/graph-default.svg" alt="" class="sidebar-icon" height="20px">Analysis
+                                <div class="d-flex align-items-left justify-content-left side-menu-active">
+                                    <button type="button" class="btn d-flex align-items-center justify-content-left w-100 active-tab tab">
+                                        <img src="images/graph-active.svg" alt="" class="sidebar-icon" height="20px">Analysis
                                     </button>
                                 </div>
                                 <div class="d-flex align-items-left justify-content-left ">
@@ -165,19 +166,19 @@
             <div class="mb-3">
                 <h6>File upload</h6>
                 <input type="file" name="uploadfile" id="img" style="display:none;"/>
-                <label for="img"  class="btn btn-primary">Upload</label>
+                <label for="img"  class="btn upload"><img src="images/cloud-upload-icon.svg" alt="" class="clr">Upload</label>
             </div>
             <div class="mb-3">
                 <h6>Radio Button</h6>
                 <div class="row">
                     <div class="col-3 form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
                             Option 1
                         </label>
                     </div>
                     <div class="col-3 form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <input class="" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                         <label class="form-check-label" for="flexRadioDefault2">
                             Option 2
                         </label>
@@ -185,21 +186,64 @@
                 </div>
             </div>
             <div class="mb-3">
-                <h6>Radio Button</h6>
+                <h6>Checkbox</h6>
                 <div class="row">
                     <div class="col-3 form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Option 1
                         </label>
                     </div>
                     <div class="col-3 form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <input class="" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Option 2
                         </label>
                     </div>
                 </div>
+            </div>
+            <div class="mb-3">
+                <h6>Snackbar</h6>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="snack mb-3">
+                            <span class="input-group-text error-snack"><img src="images/error-icon.svg" alt="" height="20px" class="clr">This is an error message</span>
+                        </div>
+                        <div class="snack mb-3">
+                            <span class="input-group-text warning-snack"><img src="images/warning-icon.svg" alt="" height="20px" class="clr">This is a warning message</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="snack mb-3">
+                            <span class="input-group-text information-snack"><img src="images/info-icon.svg" alt="" height="20px" class="clr">This is an information message</span>
+                        </div>
+                        <div class="snack mb-3">
+                            <span class="input-group-text success-snack"><img src="images/success-icon.svg" alt="" height="20px" class="clr"> This is a success message</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <h6>Call to action</h6>
+                <div class="btn primary">Primary</div>
+                <div class="btn secondary">Secondary</div>
+            </div>
+            <div class="mb-3">
+                <h6>Tabs</h6>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                jgwgefiuwegfiwuegf q3uy4uqvy[q983 34yb43y8v <br>
+                      uevqyv4r] <br>
+                      vq4iuvq4bypqu4ybpvqy4brq
             </div>
         </div>
     </div>

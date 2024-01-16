@@ -1,0 +1,51 @@
+input[type=radio] {
+    accent-color: red;
+}
+
+input[type=checkbox] {
+    accent-color: red;
+}
+
+.upload {
+    border-width: 1px;
+    border-color: #C8242F;
+    border-radius: 50px;
+    color: #C8242F;
+}
+.upload:hover{
+    /* background-color: rgb(98, 4, 4); */
+    color: #C8242F;
+    border-width: 3px;
+    border-color: #C8242F;
+    font-weight: 700;
+}
+.clr{
+    margin-right: 5px;
+}
+.error-snack {
+    border-color: #FF3535;
+    color: #FF3535;
+}
+.information-snack {
+    border-color: #00B9E1;
+    color: #00B9E1;
+}
+.warning-snack {
+    border-color: #FFA800;
+    color: #FFA800;
+}
+.success-snack {
+    border-color: #00AF27;
+    color: #00AF27;
+}
+.primary {
+    background-color: #C8242F;
+    border-radius: 50px;
+    color: white;
+}
+.secondary {
+    border-width: 1px;
+    border-color: #C8242F;
+    border-radius: 50px;
+    color: #C8242F;
+}
